@@ -171,7 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-qti \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service \
-    vendor/sony/tama-common/proprietary/vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fpc_fingerprint@2.1_HIDL-service \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/kobjeventd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/kobjeventd \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/sony/tama-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
@@ -396,6 +395,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/firmware/a630_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b01 \
     vendor/sony/tama-common/proprietary/vendor/firmware/a630_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b02 \
     vendor/sony/tama-common/proprietary/vendor/firmware/a630_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.mdt \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b00 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b01 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b02 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b03 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b04 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b05 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b06 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b07 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/fpctzfingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.mdt \
     vendor/sony/tama-common/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/sony/tama-common/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/sony/tama-common/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \

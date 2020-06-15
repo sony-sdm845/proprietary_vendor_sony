@@ -440,15 +440,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/xz2c/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
     vendor/sony/xz2c/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/sony/xz2c/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
-    vendor/sony/xz2c/proprietary/vendor/firmware/fpctzfingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b00 \
-    vendor/sony/xz2c/proprietary/vendor/firmware/fpctzfingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b01 \
-    vendor/sony/xz2c/proprietary/vendor/firmware/fpctzfingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b02 \
-    vendor/sony/xz2c/proprietary/vendor/firmware/fpctzfingerprint.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b03 \
-    vendor/sony/xz2c/proprietary/vendor/firmware/fpctzfingerprint.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b04 \
-    vendor/sony/xz2c/proprietary/vendor/firmware/fpctzfingerprint.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b05 \
-    vendor/sony/xz2c/proprietary/vendor/firmware/fpctzfingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b06 \
-    vendor/sony/xz2c/proprietary/vendor/firmware/fpctzfingerprint.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.b07 \
-    vendor/sony/xz2c/proprietary/vendor/firmware/fpctzfingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzfingerprint.mdt \
     vendor/sony/xz2c/proprietary/vendor/firmware/touch_module_id_0x30.img:$(TARGET_COPY_OUT_VENDOR)/firmware/touch_module_id_0x30.img \
     vendor/sony/xz2c/proprietary/vendor/firmware/touch_module_id_0x31.img:$(TARGET_COPY_OUT_VENDOR)/firmware/touch_module_id_0x31.img \
     vendor/sony/xz2c/proprietary/vendor/lib/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.keymaster@3.0-impl-qti.so \
