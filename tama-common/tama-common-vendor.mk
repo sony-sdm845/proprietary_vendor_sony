@@ -98,6 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/product/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/sony/tama-common/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/sony/tama-common/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
+    vendor/sony/tama-common/proprietary/vendor/bin/cacaoserver:$(TARGET_COPY_OUT_VENDOR)/bin/cacaoserver \
     vendor/sony/tama-common/proprietary/system/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/sony/tama-common/proprietary/system/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/sony/tama-common/proprietary/system/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
@@ -112,6 +113,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/system/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/sony/tama-common/proprietary/system/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
     vendor/sony/tama-common/proprietary/system/lib/libbtconfigstore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbtconfigstore.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcacao_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_client.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcacao_pal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_pal.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcacao_process_ctrl_gateway.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_process_ctrl_gateway.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/libcacao_service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacao_service.so \
     vendor/sony/tama-common/proprietary/system/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/sony/tama-common/proprietary/system/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
     vendor/sony/tama-common/proprietary/system/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
@@ -132,9 +137,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/system/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
     vendor/sony/tama-common/proprietary/system/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
     vendor/sony/tama-common/proprietary/system/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@1.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@2.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@3.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@3.1.so \
+    vendor/sony/tama-common/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@3.2.so \
     vendor/sony/tama-common/proprietary/system/lib/vendor.somc.hardware.swiqi@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.swiqi@1.0.so \
     vendor/sony/tama-common/proprietary/system/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/sony/tama-common/proprietary/system/lib64/libbtconfigstore.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbtconfigstore.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcacao_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacao_client.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcacao_pal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacao_pal.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcacao_process_ctrl_gateway.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacao_process_ctrl_gateway.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libcacao_service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacao_service.so \
     vendor/sony/tama-common/proprietary/system/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/sony/tama-common/proprietary/system/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
     vendor/sony/tama-common/proprietary/system/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpdecoder.so \
@@ -153,6 +167,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/system/lib64/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsinkinterface.so \
     vendor/sony/tama-common/proprietary/system/lib64/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsrc.so \
     vendor/sony/tama-common/proprietary/system/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsrcinterface.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.somc.hardware.camera.cacao@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.camera.cacao@1.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.somc.hardware.camera.cacao@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.camera.cacao@2.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.somc.hardware.camera.cacao@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.camera.cacao@3.0.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.somc.hardware.camera.cacao@3.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.camera.cacao@3.1.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/vendor.somc.hardware.camera.cacao@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.camera.cacao@3.2.so \
     vendor/sony/tama-common/proprietary/system/lib64/vendor.somc.hardware.swiqi@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.swiqi@1.0.so \
     vendor/sony/tama-common/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/sony/tama-common/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
