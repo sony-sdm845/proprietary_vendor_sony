@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/akatsuki/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
     vendor/sony/akatsuki/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/sony/akatsuki/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
+    vendor/sony/akatsuki/proprietary/vendor/bin/hw/vendor.semc.hardware.secd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.semc.hardware.secd@1.0-service \
     vendor/sony/akatsuki/proprietary/vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.somc.hardware.camera.provider@1.0-service \
     vendor/sony/akatsuki/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/sony/akatsuki/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
@@ -536,6 +537,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/akatsuki/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdataitems.so \
+    vendor/sony/akatsuki/proprietary/vendor/lib/libdevice_security_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdevice_security_vendor.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/libexcal_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexcal_core.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/libexcal_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexcal_system.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgdtap.so \
@@ -617,6 +619,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/akatsuki/proprietary/vendor/lib/libsomc_yummyrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_yummyrsc.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/libsony_fooddetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsony_fooddetect.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/libsony_naruto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsony_naruto.so \
+    vendor/sony/akatsuki/proprietary/vendor/lib/libsuntory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsuntory.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-cpu.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
@@ -644,6 +647,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/akatsuki/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@3.1.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/vendor.somc.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.device@1.0.so \
     vendor/sony/akatsuki/proprietary/vendor/lib/vendor.somc.hardware.camera.provider@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.provider@1.0.so \
+    vendor/sony/akatsuki/proprietary/vendor/lib/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.security.secd@1.0.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-qti.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@3.0-impl.so \
@@ -663,6 +667,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/akatsuki/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
+    vendor/sony/akatsuki/proprietary/vendor/lib64/libdevice_security_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdevice_security_vendor.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/libexcal_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexcal_core.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofencing.so \
@@ -702,6 +707,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/akatsuki/proprietary/vendor/lib64/libscveScan3D.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveScan3D.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/libsomc_camerapal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_camerapal.so \
+    vendor/sony/akatsuki/proprietary/vendor/lib64/libsuntory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsuntory.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
@@ -715,7 +721,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/akatsuki/proprietary/vendor/lib64/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0-service.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0.so \
     vendor/sony/akatsuki/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
-    vendor/sony/akatsuki/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+    vendor/sony/akatsuki/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
+    vendor/sony/akatsuki/proprietary/vendor/lib64/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.security.secd@1.0.so
 
 PRODUCT_PACKAGES += \
     CACertService
